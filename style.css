@@ -7,13 +7,13 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url('http://a1star.com/images/star--background-seamless-repeating5.jpg');
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.45);
   padding: 5px;
   border-radius: 10px;
 }
@@ -31,4 +31,16 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+span {
+  font-size: 10px;
+  color: black;
+}
+
+.messages-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  min-height: 25px;
 }
